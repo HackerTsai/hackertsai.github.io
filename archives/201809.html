@@ -13,7 +13,7 @@ permalink: /blog/2018/09/
       {% if date == "201809" %}
         <li>
           <h3><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h3>
-          <p>{{ post.date | date: "%Y年%-m月%-e日" }}</p>
+          <p>{{ post.date | date: "%Y年%-m月%-e日" }} <i class="fas fa-comment-dots" style="color: #6cf"></i> <a href="{{ post.url }}#disqus_thread">留言</a></p>
           <p>{{ post.excerpt }}</p>
         </li>
       {% endif %}

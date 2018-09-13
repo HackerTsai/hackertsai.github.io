@@ -8,10 +8,10 @@ title: HackerTsai 的個人網站正式上線囉！！！
 
 為了做出這個網站，我大概花了兩三個月查資料和製作，所以：
 
-<i class="fas fa-quote-left" style="font-size: 32px; color: #ccccff;"></i>
+<i class="fas fa-quote-left" style="font-size: 32px; color: #ccf;"></i>
 > 別人在打 LOL 時，我在寫程式。
 
-<i class="fas fa-quote-right" style="font-size: 32px; color: #ccccff; margin-left: 280px;"></i>
+<i class="fas fa-quote-right" style="font-size: 32px; color: #ccf; margin-left: 280px;"></i>
 
 PS: 我有一次試著打 LOL，但有一次隊友罵我太雷，那場打完我就怒刪遊戲......。
 
