@@ -1,0 +1,45 @@
+.post-content {
+  width: 60%;
+  padding: 50px;
+  margin: 50px 0 50px 50px;
+  background-color: #fff;
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.post-list li {
+  list-style-type: none;
+}
+
+.post-link:link, .post-link:visited, .post-link:active {
+  color: #000;
+}
+
+.post-link:hover {
+  color: #666;
+}
+
+.highlighter-rouge, .highlight pre {
+  padding: 5px;
+  background-color: #eee;
+  border: 2px solid #ddd;
+  border-radius: 3px 3px;
+}
+
+.sidebar {
+  float: right;
+  width: 20%;
+  padding: 50px;
+  margin: 50px 50px 50px 0;
+  background-color: #eee;
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
+  li {
+    list-style-type: none;
+  }
+}
+
+#disqus_thread {
+  padding: 50px;
+  margin: 0 50px 50px 50px;
+  background-color: #fff;
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
+}

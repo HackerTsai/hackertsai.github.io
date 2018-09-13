@@ -1,0 +1,114 @@
+body {
+  background-color: #ccc;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: Roboto, 'Noto Sans TC', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+a:link, a:visited, a:active {
+  color: #39f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6cf;
+}
+
+header {
+  background-color: #333;
+}
+
+footer {
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  background-color: #333;
+}
+
+.site-image {
+  display: block;
+  padding: 20px;
+  margin: auto;
+}
+
+.content {
+  margin: 40px;
+}
+
+.product-title {
+  display: flex;
+}
+
+.text-title {
+  font-size: 48px;
+  margin: 40px;
+  margin-top: 80px;
+}
+
+.product-descript {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.download-btn {
+  float: left;
+  text-align: center;
+  font-size: 24px;
+  color: #fff !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 2px 2px;
+  margin-left: 100px;
+  background-color: #666;
+  &:link, &:visited {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  &:active {
+    margin-top: 2px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+.learn-more {
+  font-size: 24px;
+  margin-left: 50px;
+}
+
+.product-photo {
+  width: 40%;
+  height: 40%;
+  border: 10px solid #333;
+  margin: 100px;
+}
+
+.gallery img {
+  display: block;
+  margin: 40px;
+  border: 10px solid #333;
+  width: 40%;
+}

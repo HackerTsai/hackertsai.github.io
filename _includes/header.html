@@ -1,0 +1,17 @@
+<header>
+  <a href="/"><img class="site-image" src="/assets/images/siteImage.png" alt="The image represents this website"></a>
+  <div class="navbar">
+    {% for item in site.data.navbar_items %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+        {{ item.name }}
+      </a>
+    {% endfor %}
+    <div class="dropdown">
+      <button id="dropbtn" {% if page.url == "/message-encryptor/" or page.url == "/through-the-holes/" %}class="current"{% endif %}>產品</button>
+      <div class="dropdown-content">
+        <a href="/message-encryptor/">Message Encryptor</a>
+        <a href="/through-the-holes/">Through the Holes!</a>
+      </div>
+    </div>
+  </div>
+</header>

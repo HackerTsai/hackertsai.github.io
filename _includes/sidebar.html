@@ -1,0 +1,21 @@
+<ul class="sidebar">
+  <li>
+    <p style="font-size: 20px;">關注我</p>
+    <ul>
+      <li><i class="fab fa-github" style="color: #333;"></i> 在<a href="https://github.com/hackertsai/">GitHub</a>上</li>
+    </ul>
+  </li>
+  <li>
+    <p style="font-size: 20px;">較舊文章</p>
+    <ul>
+      {% for post in site.posts %}
+        {% assign currentdate = post.date | date: "%Y年%-m月" %}
+        {% if currentdate != date %}
+          {% unless forloop.first %}</ul>{% endunless %}
+          <li><a href="{{ post.date | date: "/blog/%Y/%m/" }}">{{ currentdate }}</a></li>
+          {% assign date = currentdate %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </li>
+</ul>

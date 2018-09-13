@@ -1,0 +1,22 @@
+---
+layout: default
+title: 2018年9月文章 - HackerTsai Blog
+permalink: /blog/2018/09/
+---
+{% include sidebar.html %}
+<div class="post-content">
+  <h2>2018年9月文章</h2>
+  
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% assign date = post.date | date: "%Y%m" %}
+      {% if date == "201809" %}
+        <li>
+          <h3><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p>{{ post.date | date: "%Y年%-m月%-e日" }}</p>
+          <p>{{ post.excerpt }}</p>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
