@@ -6,7 +6,7 @@
   box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
 }
 
-.post-list li {
+.post-list>li {
   list-style-type: none;
 }
 
@@ -16,13 +16,6 @@
 
 .post-link:hover {
   color: #666;
-}
-
-.highlighter-rouge, .highlight pre {
-  padding: 5px;
-  background-color: #eee;
-  border: 2px solid #ddd;
-  border-radius: 3px 3px;
 }
 
 .sidebar {
