@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: 【程式概念簡單講】- 函式
+categories: easy-explain-code
 ---
 函式，英文 function，可以將程式碼整合，並動態變更程式碼所需要的值。這樣就不用因為一樣的程式碼稍微不同、或需要重複使用而寫出冗長的程式碼，使程式不易維護。
 #### 函式的宣告

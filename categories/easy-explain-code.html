@@ -1,0 +1,19 @@
+---
+layout: default
+title: 分類 -【程式概念簡單講】- HackerTsai
+permalink: /blog/easy-explain-code/
+---
+{% include sidebar.html %}
+<div class="post-content">
+  <h2>分類 -【程式概念簡單講】</h2>
+
+  <ul class="post-list">
+    {% for post in site.categories.easy-explain-code %}
+      <li>
+        <h3><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.date | date: "%Y年%-m月%-e日" }} <i class="fas fa-comment-dots" style="color: #6cf"></i> <a href="{{ post.url }}#disqus_thread">留言</a></p>
+        <p>{{ post.excerpt }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
